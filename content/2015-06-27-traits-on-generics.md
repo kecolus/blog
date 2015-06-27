@@ -137,7 +137,7 @@ I could then do a generic implementation along the lines of:
 
     :::rust
     impl<T: Serializable> Serialize for T {
-        fn frobulate(&self) -> String {
+        fn serialize(&self) -> String {
             //Serilization happens here!
         }
     }
