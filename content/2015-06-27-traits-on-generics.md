@@ -1,6 +1,6 @@
 Title: Traits on Generics
 Date: 2015-06-27 11:31
-Modified: 2015-06-27 11:31
+Modified: 2015-06-27 14:35
 Category: rust
 Tags: programming, rust, traits, generics
 Slug: traits-on-generics
@@ -9,7 +9,7 @@ Summary: A discussion about using traits on generics in rust.
 
 # Introduction
 
-I've been developing quite a bit of rust lately for my project (dx-rs)[https://github.com/dx-rs] which aims to be a safe
+I've been developing quite a bit of rust lately for my project [dx-rs](https://github.com/dx-rs) which aims to be a safe
 abstraction around DirectX, which uses COM (a stable ABI developed by Microsoft).  The way COM works requires my project
 to have its own smart pointer type to ensure that the objects are cleaned up when they're no longer used, since COM uses
 reference counting managed by the objects themselves to ensure that they are freed when they're no longer in use.
@@ -168,6 +168,7 @@ future.  Topics I would like to cover include:
 * Trait coherence
 * Associated items (associated types, consts [future version of rust], etc)
 * Default implementations of methods
+* Trait objects and object safety
 * Unsafe traits
 
 This was my first ever programming blog post.  I certainly will appreciate any feedback so I can improve my abilities to
