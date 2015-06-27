@@ -142,7 +142,7 @@ I could then do a generic implementation along the lines of:
         }
     }
 
-So far, this isn't really too different from my other examples, but what if I implement `Frobulable` on `i32`?
+So far, this isn't really too different from my other examples, but what if I implement `Serializable` on `i32`?
 
     ::rust
     impl Serializable for i32 {}
