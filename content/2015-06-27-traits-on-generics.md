@@ -47,12 +47,12 @@ The typical and most basic example of this would be extending your own type, suc
     }
 
     fn do_stuff<T: PrintDebug>(value: &T) {
-        test.print_debug();
+        value.print_debug();
     }
 
     fn main() {
         let test = Test;
-        do_Stuff(&test);
+        do_stuff(&test);
     }
 
 Which is very similar to how one would use interfaces in other languages.  Definitely a useful pattern.  The next
